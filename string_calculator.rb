@@ -3,7 +3,7 @@ class StringCalculator
   def add_numbers(string_numbers)
     nums = string_numbers.split(',').map(&:to_i)
     sum = nums.sum
-    puts sum
+    sum
   end
 end
 
